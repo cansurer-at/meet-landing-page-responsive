@@ -166,9 +166,13 @@
   }
 
   .footer-container {
+    position: absolute;
+  }
+  .footer-outer {
     margin-top: 10.8rem;
-    max-height: 27rem;
+    height: 27rem;
     display: flex;
+    position: relative;
   }
 
   .footer-img {
@@ -184,11 +188,14 @@
     text-align: center;
     color: #fafafa;
     margin-top: 5.75rem;
+    align-self: center;
   }
   .overlay-container {
     position: absolute;
     background-color: rgba(77, 150, 169, 0.88);
-    height: 53%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   .stay-text {
