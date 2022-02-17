@@ -247,6 +247,18 @@
   display: none;
 }
 
+.middle-container-desktop {
+  display: none;
+}
+
+.footer-img-desktop {
+  display: none;
+}
+
+.btn-container-desktop {
+  display: none;
+}
+
 /* Tablet  */
 @media only screen and (min-width: 481px) and (max-width: 850px) {
   .people-container {
@@ -300,26 +312,12 @@
     padding: 0 2.4rem;
   }
 
-  .two-img-container {
-    display: none;
-  }
-
-  .four-img-container {
-    display: none;
-  }
-
   .slide {
     padding: 0rem;
     border-radius: 0.5rem;
     margin-left: 0.7rem;
-
   }
 
-  .women-mac-img {
-    margin: 0;
-  }
-
-  
   .built-text {
     margin-top: 3rem;
   }
@@ -339,10 +337,6 @@
   .footer-container {
     width: 100vw;
     display: flex;
-  }
-
-  .footer-img {
-    display: none;
   }
 
   .footer-img-tablet {
@@ -385,10 +379,233 @@
     margin: 2.5rem 5.6rem 0rem 5.6rem;
     border: none;
   }
-  
+
+  .middle-container-desktop {
+    display: none;
+  }
+  .footer-img-desktop {
+    display: none;
+  }
+
+  .women-mac-img {
+    margin: 0;
+  }
+
+  .footer-img {
+    display: none;
+  }
+
+  .two-img-container {
+    display: none;
+  }
+
+  .four-img-container {
+    display: none;
+  }
 }
 
 /* Desktop */
 
 @media only screen and (min-width: 1025px) {
+  .logo-container {
+    margin-top: 2rem;
+  }
+  .middle-container-desktop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .group-title-desktop {
+    font-size: 4rem;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+    color: #28283d;
+    padding: 4.6rem 3rem 2rem 3rem;
+  }
+
+  .desc-desktop {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.44;
+    text-align: center;
+    color: #87879d;
+
+    width: 38vw;
+    margin-bottom: -0.1rem;
+    margin-left: 0.1rem;
+  }
+
+  .people-container {
+    margin-top: 1.5rem;
+  }
+
+  .people-right-img {
+    padding: 0rem;
+    margin-top: 5.5rem;
+    margin-left: 5rem;
+  }
+
+  .people-left-img {
+    padding: 0rem;
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+    padding-bottom: 0rem;
+  }
+
+  .download-btn-desktop {
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    margin: 2rem 1.6rem 0rem 5.9rem;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+    line-height: 1.63;
+    color: #ffffff;
+    border-radius: 1.813rem;
+    background-color: #4d96a9;
+    border: none;
+  }
+  .what-btn-desktop {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #ffffff;
+    border-radius: 1.813rem;
+    padding: 1rem 1.7rem 1rem 1.7rem;
+    margin-top: 2rem;
+    border: none;
+    display: flex;
+    background: #855fb1;
+    align-self: center;
+  }
+
+  .btn-container-desktop {
+    display: flex;
+  }
+
+  .number-img {
+    margin: 6.7rem 0 0 0;
+  }
+
+  .all-images-tablet {
+    display: flex;
+    padding: 0rem;
+    margin: 0rem;
+    padding: 0 9.5rem 0 9.5rem;
+    margin-top: 3rem;
+  }
+
+  .men-meetin-img {
+    padding: 0.8rem;
+    margin: 0;
+  }
+
+  .built-text {
+    margin-top: 4.15rem;
+  }
+
+  .smarter-text {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-top: 1rem;
+    padding: 0 31rem 0 31rem;
+  }
+
+  .send-text {
+    padding: 0 28.5rem 0 28.5rem;
+    margin-top: 1.8rem;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    text-align: center;
+    color: #87879d;
+  }
+
+  .page2-stick-img {
+    top: 51.1rem;
+  }
+  .experience-text {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    padding: 0 1rem;
+    max-width: 22rem;
+    margin: 0;
+    text-align: left;
+  }
+  .stay-text {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    text-align: left;
+    padding: 0 1rem;
+    max-width: 23rem;
+    margin-bottom: 1rem;
+  }
+
+  .download-btn2 {
+    font-size: 1.063rem;
+    line-height: 1.625rem;
+    border-radius: 1.813rem;
+    margin: 0;
+    text-align: left;
+    padding: 1rem 2.55rem;
+    display: flex;
+  }
+
+  .v1-3 {
+    padding-left: 0.4rem;
+    text-align: left;
+  }
+
+  .footer-desktop {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 6rem;
+    width: 86vw;
+    justify-content: space-evenly;
+  }
+
+  .footer-container {
+    width: 100vw;
+    display: flex;
+  }
+
+  .footer-img-desktop {
+    display: flex;
+  }
+
+  .footer-outer {
+    margin-top: 11.4rem;
+
+    height: 19.1rem;
+  }
+
+  .group-title {
+    display: none;
+  }
+  .desc {
+    display: none;
+  }
+
+  .btn-container-tablet {
+    display: none;
+  }
+
+  .two-img-container {
+    display: none;
+  }
+
+  .four-img-container {
+    display: none;
+  }
+
+  .footer-img {
+    display: none;
+  }
+  .footer-img-tablet {
+    display: none;
+  }
 }
